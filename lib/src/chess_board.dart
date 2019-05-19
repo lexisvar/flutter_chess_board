@@ -90,6 +90,7 @@ var whiteSquareList = [
 /// Enum which stores board types
 enum BoardType {
   brown,
+  darkBlue,
   darkBrown,
   orange,
   green,
@@ -196,6 +197,12 @@ class _ChessBoardState extends State<ChessBoard> {
       case BoardType.brown:
         return Image.asset(
           "images/brown_board.png",
+          package: 'flutter_chess_board',
+          fit: BoxFit.cover,
+        );
+      case BoardType.darkBlue:
+        return Image.asset(
+          "images/dark_blue_board.png",
           package: 'flutter_chess_board',
           fit: BoxFit.cover,
         );

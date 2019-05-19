@@ -41,6 +41,9 @@ flutter:
     - images/green_board.png
     - images/2.0x/green_board.png
     - images/3.0x/green_board.png
+    - images/dark_blue_board.png
+    - images/2.0x/dark_blue_board.png
+    - images/3.0x/dark_blue_board.png
     - images/dark_brown_board.png
     - images/2.0x/dark_brown_board.png
     - images/3.0x/dark_brown_board.png
